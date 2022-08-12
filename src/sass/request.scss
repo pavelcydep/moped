@@ -1,0 +1,137 @@
+.request {
+  display: flex;
+  width: 59.427vw;
+  
+  background: #f6f6f6;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 18.8vw;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    width: 43.698vw;
+    height: 16.25vw;
+  }
+  &__title {
+    width: 26.979vw;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.615vw;
+    color: #383b47;
+    margin-left: 7.177vw;
+    margin-top: 4.063vw;
+    z-index: 2;
+  }
+  &__button {
+    width: 11.979vw;
+    height: 3.125vw;
+    cursor: pointer;
+    background: #ec2449;
+    border-radius: 4px;
+    z-index: 2;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.729vw;
+    line-height: 0.885vw;
+    text-align: center;
+    color: #f6f6f6;
+    border: none;
+    margin-top: 3.5vw;
+  }
+}
+.request-news {
+  display: flex;
+  width: 59.427vw;
+  height: 100px;
+  background: #f6f6f6;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 18.8vw;
+  margin-bottom: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .request {
+    display: flex;
+    width: 100%;
+    height: 26.625vw;
+    background: #f6f6f6;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 55vw;
+      width: 76.698vw;
+      height: 30.25vw;
+    }
+    &__title {
+      width: 31.979vw;
+      font-size: 2.75vw;
+      line-height: 3.25vw;
+      margin-top: 9.063vw;
+    }
+    &__button {
+      width: 20.75vw;
+      height: 4.125vw;
+      font-size: 1.75vw;
+      margin-top: 10.5vw;
+      margin-left: 23vw;
+    }
+  }
+  .request-news {
+    display: flex;
+    width: 59.427vw;
+    height: 100px;
+    background: #f6f6f6;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 18.8vw;
+    margin-bottom: 300px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .request {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 66.41vw;
+    background: #f6f6f6;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+
+    &__image {
+    display: none;
+    }
+    &__title {
+      width: 81%;
+      margin-left:auto;
+      margin-right: auto;
+      font-size: 5.641vw;
+      line-height: 6.667vw;
+    }
+    &__button {
+      width: 86.923vw;
+      height: 11.538vw;
+      font-size: 3.590vw;
+      margin-top: 10.5vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

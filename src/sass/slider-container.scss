@@ -1,0 +1,13 @@
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  @media screen and (max-width: 800px) {
+
+    .slider-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+  }

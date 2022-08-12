@@ -1,0 +1,40 @@
+.footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-mobile {
+    margin-top: 90px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: solid red 1px;
+    background: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    -webkit-box-shadow: 0px -2px 33px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px -2px 33px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+  }
+  .footer-mobile__menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-mobile__item {
+    width: 20px;
+  }
+}
+/*# sourceMappingURL=footer-mobile.css.map */

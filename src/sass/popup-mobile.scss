@@ -1,0 +1,53 @@
+.popup-mobile {
+  width: 20.469vw;
+  height: 34.583vw;
+  &__container {
+    width: 20.469vw;
+    height: 64px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  &__item-telephone {
+    display: flex;
+    font-family: "Montserrat";
+    width: 8vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.729vw;
+    line-height: 17px;
+    color: #ec2449;
+    border-bottom: 1px dashed #ec2449;
+  }
+  &__image-phone{
+    width: 0.833vw;
+    height: 0.833vw;
+    margin-right: 5px;
+  }
+  &__image-close{
+    position: absolute;
+    top:1vw;
+    bottom:0;
+    right: 3vw;
+  }
+
+  &__container2 {
+    width: 20.469vw;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 41px;
+position: relative;
+padding: 0;
+  }
+
+  &__item{
+
+  }
+}

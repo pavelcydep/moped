@@ -1,0 +1,186 @@
+.surveillance {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383b47;
+    border-radius: 4px;
+    width: 3.177vw;
+    height: 1.25vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.625vw;
+    line-height: 0.781vw;
+    color: #f6f6f6;
+    margin-left: 1.302vw;
+  }
+  &__bg {
+    display: flex;
+    flex-direction: column;
+    height: 13.802vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/image3.svg);
+    width: 100%;
+  }
+  &__content {
+    width: 15.781vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.833vw;
+    line-height: 1.042vw;
+    color: #383b47;
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.667vw;
+    line-height: 2.031vw;
+    color: #2d2d2d;
+    margin-left: 20.313vw;
+  }
+  &__button {
+    margin-left: 20.313vw;
+    background: #383b47;
+    border-radius: 4px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.729vw;
+    line-height: 0.885vw;
+    text-align: center;
+    color: #f6f6f6;
+    width: 11.979vw;
+    height: 3.125vw;
+    border: none;
+  }
+}
+
+.surveillance__slider.surveillance__slider.surveillance__slider {
+  width: 65%;
+}
+
+.surveillance__container.surveillance__container.surveillance__container {
+  position: relative;
+  height: auto;
+  width: 70vw;
+  overflow: hidden;
+  margin-right: 2.604vw;
+}
+
+.surveillance__slide.surveillance__slide.surveillance__slide {
+  overflow: hidden;
+  width: 21.979vw;
+  background-color: white;
+  border-radius: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  transition: all 200ms linear;
+  transform: scale(1);
+}
+.surveillance-button-next-2.surveillance-button-next-2.surveillance-button-next-2 {
+  width: 2.76vw;
+  height: 2.76vw;
+  top: 6vw;
+  margin-right: 17vw;
+
+  background: #f0f0f0;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+
+  .surveillance {
+    display: flex;
+    flex-direction: column;
+  
+    &__text {
+     font-size: 1.500vw;
+      width: 7.625vw;
+      height: 3vw;
+      
+  
+    }
+    &__bg {
+      display: flex;
+      flex-direction: column;
+      height: 13.802vw;
+      width: 100%;
+      background: size 100%;
+      background-repeat: no-repeat;
+      background-image: url(../images/image3.svg);
+     
+    }
+    &__content {
+      width: 37.875vw;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2vw;
+      line-height: 2.500vw;
+      color: #383b47;
+    }
+    &__title {
+     
+      font-size: 4vw;
+      line-height:4.875vw;
+       margin-left: 0;
+    }
+    &__button {
+      margin-left:0;
+      background: #383b47;
+      border-radius: 4px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.729vw;
+      line-height: 0.885vw;
+      text-align: center;
+      color: #f6f6f6;
+      width: 11.979vw;
+      height: 3.125vw;
+      border: none;
+    }
+  }
+  
+  .surveillance__slider.surveillance__slider.surveillance__slider {
+    width: 100%;
+  }
+  
+  .surveillance__container.surveillance__container.surveillance__container {
+    position: relative;
+   height: 33.125vw;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 2.604vw;
+  }
+  
+  .surveillance__slide.surveillance__slide.surveillance__slide {
+    overflow: hidden;
+    width: 21.979vw;
+    background-color: white;
+    border-radius: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    transition: all 200ms linear;
+    transform: scale(1);
+  }
+  .surveillance-button-next-2.surveillance-button-next-2.surveillance-button-next-2 {
+    width: 2.76vw;
+    height: 2.76vw;
+    top: 6vw;
+    margin-right: 17vw;
+  
+    background: #f0f0f0;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+  }
+}

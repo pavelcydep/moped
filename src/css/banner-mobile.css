@@ -1,0 +1,35 @@
+.banner-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .banner-mobile {
+    display: block;
+    position: relative;
+    height: 10.625vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 0px;
+    max-width: 800px;
+    margin-bottom: 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-image: url(../images/Maskgroup.jpg);
+  }
+  .banner-mobile__image-close {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    top: 3vw;
+    right: 3vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-mobile {
+    display: none;
+  }
+}
+/*# sourceMappingURL=banner-mobile.css.map */

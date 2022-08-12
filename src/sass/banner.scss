@@ -1,0 +1,31 @@
+.banner {
+  position: relative;
+  width: 80%;
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 0px;
+  margin-left: 1vw;
+  margin-bottom: 0px;
+
+  padding-left: auto;
+  padding-right: auto;
+
+  &__image {
+    margin-left: 6vw;
+    width: 100%;
+    height: auto;
+  }
+  &__image-close {
+    width: 1.25vw;
+    height: 1.25vw;
+    position: absolute;
+    top: 2vw;
+    right: 13.5vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner {
+    display: none;
+  }
+ 
+}

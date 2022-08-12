@@ -1,0 +1,31 @@
+.banner-mobile390{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 500px) {
+.banner-mobile390{
+    display: block;
+    position: relative;
+    height: 10.625vw;
+    box-sizing: border-box;
+    padding-top: 0px;
+    width: 100%;
+    height: auto;
+   &__image{
+   
+    width: 100%;
+    height: auto;
+   }
+    &__image-close{
+    width:3vw;
+    height:3vw;
+    position: absolute;
+    top:3vw;
+    right: 3vw;
+    }
+   
+  
+    }
+}

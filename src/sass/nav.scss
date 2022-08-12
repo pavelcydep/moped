@@ -1,0 +1,111 @@
+.nav {
+  display: block;
+  max-width: 1920px;
+
+  &__menu {
+    display: flex;
+    height: 2.917vw;
+
+    flex-direction: row;
+    justify-content: space-between;
+    background: #383b47;
+    list-style: none;
+  }
+  &__item {
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.833vw;
+    line-height: 1.042vw;
+    color: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  &__item:first-child {
+    margin-left: 16.5vw;
+  }
+  &__item:last-child {
+    margin-right: 12.083vw;
+  }
+}
+
+.popup {
+  position: absolute;
+  display: none;
+  top: 13vw;
+  z-index: 100;
+  width: 62vw;
+  flex-direction: column;
+  
+  list-style: none;
+  background: #f0f0f0;
+  border-radius: 0px;
+
+  &__title {
+    margin-left: 16vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: #2d2d2d;
+  }
+  &__item {
+    margin-left: 16vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+  }
+  &__list-container {
+    margin-left: 16vw;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    margin-bottom: 2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: block;
+    width: 100%;
+
+    &__menu {
+      display: flex;
+      height: 2.917vw;
+      padding-left: 0;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #383b47;
+      list-style: none;
+    }
+    &__item {
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2vw;
+      line-height: 2.5vw;
+      color: #ffffff;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    &__item_no-mobile {
+      display: none;
+    }
+    &__item_mobile {
+      margin-right: 4vw;
+    }
+    &__item:first-child {
+      margin-left: 4vw;
+    }
+    &__item:last-child {
+      margin-right: 0;
+    }
+  }
+}

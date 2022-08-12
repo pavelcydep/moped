@@ -1,0 +1,115 @@
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 12.135vw;
+  &__image {
+    width: 21.25vw;
+    height: 10vw;
+  }
+  &__image {
+    display: flex;
+    justify-content: end;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/water-transport.svg);
+    width: 21.25vw;
+    height: 10vw;
+  }
+  &__image-2 {
+    display: flex;
+    justify-content: end;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/moto-transport.png);
+    width: 21.25vw;
+    height: 10vw;
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.729vw;
+    line-height: 109.4%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #383b47;
+    margin-top: 8vw;
+    margin-left: 13vw;
+
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.146vw;
+    width: 96vw;
+    &__image {
+      display: flex;
+      justify-content: end;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/water-transport.svg);
+      width: 46.75vw;
+      height: 24vw;
+    }
+    &__image-2 {
+      display: flex;
+      justify-content: end;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/moto-transport.png);
+      width: 46.75vw;
+      height: 24vw;
+    }
+    &__title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 1.75vw;
+      line-height: 109.4%;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #383b47;
+      margin-top: 18vw;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 87.179vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.846vw;
+    &__image {
+      display: flex;
+
+      background-size: cover;
+      margin-bottom: 3.846vw;
+      background-image: url(../images/water-transport.svg);
+      width: 87.179vw;
+      height: 44.615vw;
+    }
+    &__image-2 {
+      display: flex;
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../images/moto-transport.png);
+      width: 87.179vw;
+      height: 44.615vw;
+    }
+    &__title {
+      font-size: 3.59vw;
+      margin-top: 36vw;
+      margin-left: 23vw;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.header-mobile {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 87.179vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.385vw;
+    &__menu {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding-left: 0;
+    }
+    &__country-image {
+      width: 4.872vw;
+      height: 6.154vw;
+    }
+    &__image-phone {
+      width: 6.154vw;
+      height: 6.154vw;
+    }
+    &__search {
+      width: 87.179vw;
+      height: 10.256vw;
+      position: relative;
+    }
+    &__input-mobile {
+      background: #f6f6f6;
+      border-radius: 4px;
+      width: 87.179vw;
+      border: none;
+      height: 10.256vw;
+    }
+    &__magnifier {
+      background-image: url(../images/magnifier.svg);
+      position: absolute;
+      background-size: 100%;
+      height: 4.615vw;
+      width: 4.615vw;
+      top: 3.66vw;
+      border: none;
+      background: no-repeat;
+      right: 0.521vw;
+    }
+  }
+  .item__mobile-menu {
+  }
+}
