@@ -43,7 +43,7 @@
   height: 13.802vw;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/image3.svg);
+  background-image: url(/images/image3.svg);
   width: 100%;
 }
 
@@ -154,7 +154,7 @@
     width: 100%;
     background: size 100%;
     background-repeat: no-repeat;
-    background-image: url(../images/image3.svg);
+    background-image: url(/images/image3.svg);
   }
   .surveillance__content {
     width: 37.875vw;
