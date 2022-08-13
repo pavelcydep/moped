@@ -84,7 +84,7 @@ $(document).ready(function() {
       spaceBetween: 0,
       slidesPerView: 2.5,
       centeredSlides: false,
-      roundLengths: true,
+      roundLengths: false,
       loop: true,
       loopAdditionalSlides: 10,
       navigation: {

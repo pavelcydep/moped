@@ -2,7 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1920px;
+ width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -12,6 +12,7 @@
           justify-content: space-between;
   list-style: none;
   padding: 0;
+  align-items: center;
 }
 
 .search__item-title {
@@ -89,7 +90,16 @@
   height: 0.833vw;
   margin-right: 0.625vw;
 }
-
+@media screen and (max-width: 1440px) {
+  .search__item-telephone {
+   font-size: 1vw;
+   } 
+   .search__item-subtitle {
+    font-size: 1vw;
+    line-height: 1vw;
+    width: 10vw;
+   }
+}
 @media screen and (max-width: 800px) {
   .search {
     height: 5.250vw;

@@ -1,6 +1,6 @@
 .nav {
   display: block;
-  max-width: 1920px;
+  width:100%;
   
 }
 
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 0.833vw;
-  line-height: 1.042vw;
+ line-height: 1.042vw;
   color: #ffffff;
   margin-top: auto;
   margin-bottom: auto;
@@ -82,7 +82,12 @@
   line-height: 28px;
   margin-bottom: 2vw;
 }
+@media screen and (max-width: 1440px) {
+  .nav__item {
+font-size: 1.2vw;
+   }
 
+}
 @media screen and (max-width: 800px) {
   .nav {
     display: block;

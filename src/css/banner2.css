@@ -26,7 +26,7 @@
   justify-content: end;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/images/water-transport.svg);
+  background-image: url(../../images/water-transport.svg);
   width: 21.25vw;
   height: 10vw;
 }
@@ -40,7 +40,7 @@
   justify-content: end;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(/images/moto-transport.png);
+  background-image: url(../../images/moto-transport.png);
   width: 21.25vw;
   height: 10vw;
 }
@@ -85,7 +85,7 @@
     justify-content: end;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/images/moto-transport.png);
+    
     width: 46.75vw;
     height: 24vw;
   }
@@ -99,7 +99,7 @@
     justify-content: end;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/images/moto-transport.png);
+ 
     width: 46.75vw;
     height: 24vw;
   }
@@ -141,7 +141,7 @@
     display: flex;
     background-size: cover;
     margin-bottom: 3.846vw;
-    background-image: url(/images/water-transport.svg);
+   
     width: 87.179vw;
     height: 44.615vw;
   }
@@ -152,7 +152,7 @@
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/moto-transport.png);
+
     width: 87.179vw;
     height: 44.615vw;
   }
