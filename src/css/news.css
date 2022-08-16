@@ -66,7 +66,7 @@
 .news__slider.news__slider.news__slider {
   width: 100%;
   overflow: hidden;
-  margin-left: 0;
+  margin-left: 10px;
   margin-right: 0;
 }
 
